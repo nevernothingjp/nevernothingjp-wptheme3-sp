@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/*
+Theme Name: nevernothingjp-wptheme3-sp
+Theme URI: https://www.nevernothing.jp
+Description: nevernothingjp-wptheme3-sp
+Author: NeverNothing
+Author URI: https://www.nevernothing.jp
+Template:
+Version: 1.0
+*/
+
+/**********************************************************************
+* 全体
+**********************************************************************/
+.container-fruid {
+	margin:0px 15px 0px 15px;
+}
+
+/**********************************************************************
+* ヘッダー
+**********************************************************************/
+.nnj-header {
+	margin: 4px 0px 4px 0px;
+	border: 1px solid darkred;
+	padding: 5px;
+}
+
+.nnj-header-left {
+	text-align:left;
+}
+.nnj-header-left h1 {
+  font-size: 100%;
+}
+.nnj-header-left a:link { color: firebrick !important; }
+.nnj-header-left a:visited { color: firebrick !important; }
+.nnj-header-left a:hover { color: firebrick !important; }
+.nnj-header-left a:active { color: firebrick !important; }
+
+.nnj-header-center {
+	text-align:center;
+}
+
+.nnj-header-right {
+	text-align:right;
+}
+.nnj-header-right ul {
+    list-style: none;
+}
+.nnj-header-right ul li {
+    display: inline; 	
+    margin-right: 1em;
+}
+
+.nnj-header-description {
+  text-align:left;
+}
+.nnj-header-description h2 {
+  font-size:90%
+}
+
+.nnj-header-bottom {
+  text-align:left;
+}
+
+/**********************************************************************
+* ナビ
+**********************************************************************/
+.nnj-nav {
+	margin: 0px 0px 5px 0px;
+	border: 1px solid darkred;
+	padding: 5px;
+}
+.nnj-nav ul{
+    padding: 0px; 	
+    margin: 0px;
+} 
+.nnj-nav ul li {
+    display: inline; 	
+    margin-right: 1em;
+}
+
+/**********************************************************************
+* フッター
+**********************************************************************/
+.nnj-footer {
+	margin: 2px 0px 30px 0px;
+	border: 1px solid darkred;
+	padding: 5px;
+}
+.nnj-footer ul {
+    list-style: none;
+}
+.nnj-footer ul li {
+    display: inline; 	
+    margin-right: 1em;
+}
+
+/**********************************************************************
+* 中央コンテンツ
+**********************************************************************/
+.nnj-content {
+	margin: 0px 0px 5px 0px;
+	border: none;
+	padding: 0px;
+}
+
+.nnj-main {
+	margin: 0px 0px 0px 0px;
+	border: none;
+	padding: 0px;
+}
+
+/**********************************************************************
+* サイドバー
+**********************************************************************/
+/* サイドバー共通 */
+.nnj-sidebar {
+	border: none;
+	padding: 0px;
+}
+
+/* 左サイドバー */
+.nnj-sidebar-left {
+	margin: 0px 5px 0px 0px;
+}
+
+/* 右サイドバー */
+.nnj-sidebar-right {
+	margin: 0px 0px 0px 0px;
+}
+
+/**********************************************************************
+* サイドバーウィジェット
+**********************************************************************/
+/* サイドバーウィジェット共通 */
+.nnj-wight-sidebar {
+	margin: 0px 0px 5px 0px;
+	border: 1px solid darkred;
+	padding: 0px;
+}
+
+/* 左サイドバーウィジェット */
+.nnj-wight-sidebar-left {
+	width: 230px;
+}
+.nnj-wight-sidebar-left h3 {
+	margin: 0px;
+	border-top: 0px;
+	border-bottom: solid 1px darkred;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 0px 0px 0px 2px;
+	background-color: darksalmon;
+	color: black;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/* 右サイドバーウィジェット */
+.nnj-wight-sidebar-right {
+	width: 200px;
+}
+.nnj-wight-sidebar-right h3 {
+	margin: 0px;
+	border-top: 0px;
+	border-bottom: solid 1px darkred;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 0px 0px 0px 2px;
+	background-color: darksalmon;
+	color: black;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/* 検索ウィジット */
+#searchform .screen-reader-text {
+	display: none;
+}
+#searchform {
+	padding: 2px 2px 2px 2px;
+	font-size: 70%;
+}
+
+/* 一覧型ウィジット共通 */
+.nnj-wight-sidebar ul {
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
+.nnj-wight-sidebar ul li {
+	position: relative;
+	list-style-type: none!important;
+	margin-bottom: 0px;
+	border-bottom: dotted 1px palevioletred;
+	padding: 1px;
+ 	line-height: 1.2;
+	background: papayawhip;
+	vertical-align: middle;
+	font-size: 90%;
+}
+
+/* テキスト/HTMLウィジット */
+.textwidget {
+	margin: 2px;
+}
+
+/* カレンダーウィジット*/
+.calendar_wrap {
+	margin-left: 10px;
+	font-size: 100%;
+}
+
+/**********************************************************************
+* ページ要素
+**********************************************************************/
+/* ページャー */
+.nnj-pager {
+	margin: 0px 0px 5px 0px;
+	border: solid 1px darkred;
+	padding: 0px;
+	text-align: center;
+	background-color: darksalmon;
+	font-size: 80%;
+}
+
+/* 記事 */
+.nnj-section {
+	margin: 0px 0px 5px 0px;
+	border: solid 1px darkred;
+	padding: 0px;
+}
+
+/* 記事タイトル */
+.nnj-section-title {
+	margin: 0px;
+	border-bottom: solid 1px darkred;
+	padding: 4px;
+	background-color: darksalmon;
+}
+.nnj-section-title h2 {
+	font-size: 120%;
+	line-height: 1.0;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+/* 記事の情報 */
+.nnj-section-info {
+	margin: 0px;
+	border-bottom: solid 1px darkred;
+	padding: 4px;
+	background-color: papayawhip;
+	font-size: 80%;
+}
+
+/* 記事本文 */
+.nnj-section-main {
+	margin: 0px;
+	border: none;
+	padding: 4px;
+}
+
+/* コメント */
+.nnj-section-comment {
+	margin: 0px;
+	border-top: dashed 1px burlywood;
+	padding: 4px;
+}
+.nnj-section-comment h3 {
+	font-size: 90%;
+}
+.comment-reply-title {
+	font-size: 90%;
+}
+.logged-in-as {
+	font-size: 90%;
+}
+.comment-form-comment {
+	font-size: 70%;
+}
+.comment-form-comment label {
+	display: none;
+}
+
+/* トラックバック */
+.nnj-section-trackback {
+	width:350px;
+	margin: 0px;
+	border-top: dashed 1px burlywood;
+	padding: 4px;
+	overflow-x:scroll;
+}
+.nnj-section-trackback h3 {
+	font-size: 90%;
+}
+
+/**********************************************************************
+* 本文中の要素
+**********************************************************************/
+/* セクションのタイトル */
+.nnj-section-main h3 {
+	margin: 0px;
+	padding: 2px 0px 2px 10px;
+	border: solid 2px darkred;
+	font-size: 120%;
+	background-color: azure;
+}
+
+/* RSS Field */
+.rssimport {
+	margin: 0px;
+	border: solid 1px darkred;
+	padding: 0px;
+}
+.rssimport ul {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+.rssimport ul li {
+	position: relative;
+	list-style-type: none!important;
+	margin-bottom: 0px;
+	border-bottom: dotted 1px palevioletred;
+	padding: 2px;
+	line-height: 1.2;
+	background: papayawhip;
+	vertical-align: middle;
+	font-size: 100%;
+}
+
+/* コンソール */
+pre.command {
+	width:80%;
+	margin: 2px 10px 2px 0px;
+	border: solid 1px red;
+	padding: 4px 10px 4px 10px;
+	background-color: black;
+	color: white;
+	overflow-x:scroll;
+}
+
+/* ソースコード、設定 */
+pre.source {
+	width:80%;
+	margin: 2px 10px 2px 0px;
+	border: solid 1px darkred;
+	padding: 4px 10px 4px 10px;
+	background-color: lightblue;
+	color: black;
+	overflow-x:scroll;
+}
+
+/* 広告枠 */
+.master-post-advert {
+	border: double 1px darkred;
+	padding: 10px;
+	width: 500px;
+}
