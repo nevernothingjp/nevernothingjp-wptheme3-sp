@@ -4,9 +4,13 @@
       <h1><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
       <?php dynamic_sidebar('nnj-wiget-header-left-sp'); ?>
     </div>
-    <div class="col nnj-header-center">
+  </div>
+  <div class="row">
+    <div class="col-auto nnj-header-left">
       <?php dynamic_sidebar('nnj-wiget-header-center-sp'); ?>
     </div>
+  </div>
+  <div class="row">
     <div class="col-auto nnj-header-right">
       <?php dynamic_sidebar('nnj-wiget-header-right-sp'); ?>
     </div>

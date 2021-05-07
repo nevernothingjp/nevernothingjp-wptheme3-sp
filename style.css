@@ -33,6 +33,13 @@ Version: 1.0
 .nnj-header-left h1 {
   font-size: 100%;
 }
+.nnj-header-left ul {
+    list-style: none;
+}
+.nnj-header-left ul li {
+    display: inline; 	
+    margin-right: 1em;
+}
 .nnj-header-left a:link { color: firebrick !important; }
 .nnj-header-left a:visited { color: firebrick !important; }
 .nnj-header-left a:hover { color: firebrick !important; }
@@ -62,6 +69,7 @@ Version: 1.0
 
 .nnj-header-bottom {
   text-align:left;
+  width:400px;
 }
 
 /**********************************************************************
@@ -123,7 +131,7 @@ Version: 1.0
 
 /* 左サイドバー */
 .nnj-sidebar-left {
-	margin: 0px 5px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 /* 右サイドバー */
@@ -143,7 +151,7 @@ Version: 1.0
 
 /* 左サイドバーウィジェット */
 .nnj-wight-sidebar-left {
-	width: 230px;
+	margin: 0px 0px 5px 0px;
 }
 .nnj-wight-sidebar-left h3 {
 	margin: 0px;
@@ -160,7 +168,7 @@ Version: 1.0
 
 /* 右サイドバーウィジェット */
 .nnj-wight-sidebar-right {
-	width: 200px;
+	margin: 0px 0px 5px 0px;
 }
 .nnj-wight-sidebar-right h3 {
 	margin: 0px;
@@ -360,5 +368,5 @@ pre.source {
 .master-post-advert {
 	border: double 1px darkred;
 	padding: 10px;
-	width: 500px;
+	width: 350px;
 }

@@ -6,6 +6,9 @@
 <body>
 <div class="container-fruid">
   <?php include_once 'body_header.php' ?>
+  <div class="col nnj-sidebar">
+    <?php dynamic_sidebar('nnj-wiget-sidebar-left-sp'); ?>
+  </div>
   <div class="row nnj-content">
     <div class="col nnj-main">
       <?php if (have_posts()) { ?>
@@ -31,6 +34,9 @@
         <div><p>記事は存在しません</p></div>
       <?php } ?>
     </div>
+  </div>
+  <div class="col-auto nnj-sidebar">
+    <?php dynamic_sidebar('nnj-wiget-sidebar-right-sp'); ?>
   </div>
   <?php get_footer(); ?>
 </div>
